@@ -20,8 +20,7 @@ jobs:
           date_now=$(date +%s)
           date_birth=$(date -d "2007-07-20" +%s)
           age=$((($date_now - $date_birth) / 31536000))
-          echo $age
-          sed -E -i 's/Uptime: ([0-9+]) years/'"Uptime: $age years/" README.md
+          sed -E -i 's/Uptime: ([0-9]+) years/'"Uptime: $age years/" README.md
           sed -E -i 's/OS: Zikabyte-OS v2.0.([0-9]+)/'"OS: Zikabyte-OS v2.0.$year_now/" README.md
           
       - name: Commit and push changes
