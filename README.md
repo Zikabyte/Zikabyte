@@ -27,7 +27,7 @@
 |                                                            |
 |      /\_/\           OS: Zikabyte-OS v2.0.26               |
 |     ( o.o )          Shell: Bash                           |
-|      >-o-<           Uptime: 18 years                      |
+|      >-o-<           Uptime: 19 years                      |
 |     /     \          Status: Learning & Building           |
 |    |__|_|__|                                               |
 |                                                            |
